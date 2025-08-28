@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events - St. Mary’s Jacobite Syrian Church</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 left-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="/Events/LOGO PNG.png" alt="Church Logo" class="h-12 w-auto">
+        <span class="ml-2 text-lg font-bold text-blue-800">St. Mary’s Jacobite Syrian Orthodox Church</span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="space-x-6 hidden md:flex">
+        <a href="https://stmarysjsocnaigaon.github.io/Home/" class="hover:text-blue-700 transition">Home</a>
+        <a href="https://stmarysjsocnaigaon.github.io/About-Us/" class="hover:text-blue-700 transition">About</a>
+        <a href="https://stmarysjsocnaigaon.github.io/Ministries/" class="hover:text-blue-700 transition">Ministries</a>
+        <a href="gallery.html" class="hover:text-blue-700 transition">Gallery</a>
+        <a href="events.html" class="text-blue-700 font-semibold">Events</a>
+        <a href="contact.html" class="hover:text-blue-700 transition">Contact</a>
+      </div>
+
+      <!-- Hamburger Button (Mobile) -->
+      <button class="md:hidden text-gray-800 focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+      <a href="https://stmarysjsocnaigaon.github.io/Home/" class="block px-4 py-2 hover:bg-blue-100">Home</a>
+      <a href="https://stmarysjsocnaigaon.github.io/About-Us/" class="block px-4 py-2 hover:bg-blue-100">About</a>
+      <a href="https://stmarysjsocnaigaon.github.io/Ministries/" class="block px-4 py-2 hover:bg-blue-100">Ministries</a>
+      <a href="gallery.html" class="block px-4 py-2 hover:bg-blue-100">Gallery</a>
+      <a href="events.html" class="block px-4 py-2 hover:bg-blue-100">Events</a>
+      <a href="contact.html" class="block px-4 py-2 hover:bg-blue-100">Contact</a>
+    </div>
+  </nav>
+
+    <!-- Hero Section -->
+<header class="bg-blue-800 text-white text-center py-24 mt-16 relative">
+  <img src="/Events/church-bg.jpeg" alt="Church Background" class="absolute inset-0 w-full h-full object-cover opacity-30">
+  <div class="relative z-10">
+    <h1 class="text-4xl md:text-5xl font-bold">Church Events</h1>
+    <p class="mt-4 text-lg">Stay connected with our spiritual gatherings and special events</p>
+  </div>
+</header>
+
+  <!-- Upcoming Events Section -->
+  <section class="max-w-6xl mx-auto py-16 px-4 sm:px-6">
+    <h2 class="text-3xl font-bold text-blue-800 mb-8 text-center">📅 Upcoming Events</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <!-- Event 1 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition transform hover:-translate-y-1">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Mother Mary Feast 🙏</h3>
+        <p class="text-gray-600 mb-2">📍 Church Premises</p>
+        <p class="text-gray-600 mb-4">🗓 September 1 - 10, 2025</p>
+        <p class="text-gray-700">Join us for Novena prayers and Holy Qurbana every evening.</p>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition transform hover:-translate-y-1">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Sunday School Anniversary 🎉</h3>
+        <p class="text-gray-600 mb-2">📍 Parish Hall</p>
+        <p class="text-gray-600 mb-4">🗓 September 15, 2025</p>
+        <p class="text-gray-700">All parishioners are invited for a joyful celebration after Holy Qurbana.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Regular Gatherings Section -->
+  <section class="bg-gray-50 py-16 px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-blue-800 mb-8 text-center">⛪ Regular Spiritual Gatherings</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold text-gray-800">Sundays</h3>
+          <ul class="text-gray-600 mt-2 space-y-1">
+            <li>🕗 Morning Prayer - 8:30 am</li>
+            <li>✝ Holy Qurbana - 9:15 am</li>
+            <li>🙏 Intercessory Prayers to Mother Mary - 10:45 am</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold text-gray-800">Obligatory Days</h3>
+          <ul class="text-gray-600 mt-2 space-y-1">
+            <li>🕖 Morning Prayer - 7:30 am</li>
+            <li>✝ Holy Qurbana - 8:00 am</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold text-gray-800">Wednesdays</h3>
+          <ul class="text-gray-600 mt-2 space-y-1">
+            <li>🌙 Evening Prayer - 8:00 pm</li>
+            <li>🙏 Intercessory Prayers to Mother Mary - 8:30 pm</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+          <h3 class="text-xl font-semibold text-gray-800">Fridays</h3>
+          <ul class="text-gray-600 mt-2 space-y-1">
+            <li>🌙 Evening Prayer - 8:30 pm</li>
+            <li>🛡 Special Intercession to St. George</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Prayer Meetings Section -->
+  <section class="max-w-6xl mx-auto py-16 px-4 sm:px-6">
+    <h2 class="text-3xl font-bold text-blue-800 mb-8 text-center">🤝 Prayer Meetings</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-gray-800">Vasai Area</h3>
+        <p class="text-gray-600">🗓 Every 2nd Saturday at 7:30 pm</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-gray-800">Nallasopara Area</h3>
+        <p class="text-gray-600">🗓 Every 1st Sunday at 7:30 pm</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1">
+        <h3 class="text-xl font-semibold text-gray-800">Bhayandar Area</h3>
+        <p class="text-gray-600">🗓 Every 3rd Sunday at 7:30 pm</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-6 mt-10">
+    <div class="max-w-6xl mx-auto text-center">
+      <p>&copy; 2025 St. Mary’s Jacobite Syrian Orthodox Church. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
